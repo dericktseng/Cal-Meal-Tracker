@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Meal-Tracker",
+    "name": "Cal-Meal-Tracker",
     "version": "0.0.1",
 
     "description": "partitions meals into weeks, when it gets refreshed on Sundays (UC Berkeley)",
