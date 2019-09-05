@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Meal-Tracker",
+    "version": "0.0.1",
+
+    "description": "partitions meals into weeks, when it gets refreshed on Sundays (UC Berkeley)",
+
+    "developer": {
+        "name": "Derick Tseng",
+        "url": "https://github.com/derickboss1"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://services.housing.berkeley.edu/c1c/dyn/bals.asp?pln=rb"],
+            "js": ["src/meal-tracker.js"]
+        }
+    ],
+
+    "applications": {
+        "gecko": {
+            "id": "meal-tracker@derickboss1.addons.mozilla.org",
+            "update_url": "https://raw.githubusercontent.com/derickboss1/meal-tracker/master/updates.json"
+        }
+    }
+}

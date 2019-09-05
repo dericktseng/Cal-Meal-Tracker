@@ -1,0 +1,7 @@
+*.crx
+*.pem
+*.zip
+*.xpi
+.web-extension-id
+/web-ext-artifacts
+*.sh

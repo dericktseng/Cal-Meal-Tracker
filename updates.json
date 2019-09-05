@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "meal-tracker@derickboss1.addons.mozilla.org": {
+            "updates": [
+                {
+                    "version": "0.0.1",
+                    "update-link": ""
+                }
+            ]
+        }
+    }
+}
