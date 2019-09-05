@@ -5,3 +5,5 @@
 .web-extension-id
 /web-ext-artifacts
 *.sh
+/chrome
+/firefox
