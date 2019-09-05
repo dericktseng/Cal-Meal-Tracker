@@ -24,13 +24,32 @@ for(var i = 2; i < rows.length - 1; i++) {
     var difference_in_time = date.getTime()  - datePrevious.getTime();
     var difference_in_days = difference_in_time / (1000 * 3600 * 24);
 
+    // checks if the first entry is already past a week ago, if it is, do not count
+    if(i == 2) {
+        // gets the date today
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        today = new Date(`${mm}/${dd}/${yyyy}`);
+
+        // difference between today and the date listed
+        var diff_today_time = today.getTime() - date.getTime();
+        var diff_today_days = diff_today_time / (1000 * 3600 * 24);
+
+        // check if a week has passed between today and the first entry
+        if(diff_today_days >= 7){
+            week_already_counted = true;
+        }
+    }
+
     // highlights only entries made this week
     if(!week_already_counted) {
         this_week_count++;
         highlight(rows[i]);
     }
 
-    // if in the same week
+    // if entries are within a 7day interval from each other
     if(difference_in_days < 7) {
         // Sunday indexed to 0, basically when the new week starts
         // if new week starts, difference between the two dates will be negative
