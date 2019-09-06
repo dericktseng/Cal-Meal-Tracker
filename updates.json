@@ -3,8 +3,8 @@
         "meal-tracker@derickboss1.addons.mozilla.org": {
             "updates": [
                 {
-                    "version": "0.0.1",
-                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.0.1/meal_tracker-0.0.1-an+fx.xpi"
+                    "version": "0.1.1",
+                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.1/cal_meal_tracker-0.1.1-an+fx.xpi"
                 }
             ]
         }
