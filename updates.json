@@ -4,7 +4,11 @@
             "updates": [
                 {
                     "version": "0.1.4",
-                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.3/cal_meal_tracker-0.1.4-an+fx.xpi"
+                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.4/cal_meal_tracker-0.1.4-an+fx.xpi"
+                },
+                {
+                    "version": "0.1.5",
+                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.5/cal_meal_tracker-0.1.5-an+fx.xpi"
                 }
             ]
         }
