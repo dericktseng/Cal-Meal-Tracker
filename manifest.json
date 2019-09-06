@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Cal-Meal-Tracker",
-    "version": "0.1.3",
+    "version": "0.1.4",
 
     "description": "partitions meals into weeks, when it gets refreshed on Sundays (UC Berkeley)",
 
@@ -25,7 +25,7 @@
 
     "applications": {
         "gecko": {
-            "id": "meal-tracker@derickboss1.addons.mozilla.org",
+            "id": "cal-meal-tracker@derickboss1.addons.mozilla.org",
             "update_url": "https://raw.githubusercontent.com/derickboss1/Cal-Meal-Tracker/master/updates.json"
         }
     }

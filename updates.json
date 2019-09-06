@@ -1,18 +1,10 @@
 {
     "addons": {
-        "meal-tracker@derickboss1.addons.mozilla.org": {
+        "cal-meal-tracker@derickboss1.addons.mozilla.org": {
             "updates": [
                 {
-                    "version": "0.1.1",
-                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.1/cal_meal_tracker-0.1.1-an+fx.xpi"
-                },
-                {
-                    "version": "0.1.2",
-                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.2/cal_meal_tracker-0.1.2-an+fx.xpi"
-                },
-                {
-                    "version": "0.1.3",
-                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.3/cal_meal_tracker-0.1.3-an+fx.xpi"
+                    "version": "0.1.4",
+                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.3/cal_meal_tracker-0.1.4-an+fx.xpi"
                 }
             ]
         }
