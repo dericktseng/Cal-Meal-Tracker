@@ -38,7 +38,7 @@ for(var i = 2; i < rows.length - 1; i++) {
         var diff_today_days = diff_today_time / (1000 * 3600 * 24);
 
         // check if a week has passed between today and the first entry
-        if(diff_today_days >= 7){
+        if(diff_today_days >= 7 || today.getDay() - date.getDay() < 0){
             week_already_counted = true;
         }
     }
