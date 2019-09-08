@@ -9,6 +9,10 @@
                 {
                     "version": "0.1.5",
                     "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.5/cal_meal_tracker-0.1.5-an+fx.xpi"
+                },
+                {
+                    "version": "0.1.6",
+                    "update-link": "https://github.com/derickboss1/Cal-Meal-Tracker/releases/download/v0.1.6/cal_meal_tracker-0.1.6-an+fx.xpi"
                 }
             ]
         }
